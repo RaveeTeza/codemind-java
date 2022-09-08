@@ -1,16 +1,16 @@
 import java.util.*;
-class pattern6
+class pattern2
 {
    public static void main(String args[])     // To do auto generated method stub
 {
   Scanner sc=new Scanner (System.in);
-int r;
+int r,c;
 r=sc.nextInt();
-for(int i=r;i>=1; i--)
+for(int i=1;i<=r; i++)
 {
-   for (int j=1;j<=i;j++)
+   for (int j=r;j>=1;j--)
 {
-System.out.print(j);
+System.out.print(j+" " );
 }
   System.out.println();
 }
