@@ -8,10 +8,9 @@ int r;
 r=sc.nextInt();
 for(int i=1;i<=r; i++)
 {
-   for (int j=1;j<=r;j++)
+   for (int j=1;j<=r-i+1;j++)
 {
-    if (j<=i)
-System.out.print(j);
+System.out.print((char)(65+r-i)+" ");
 }
   System.out.println();
 }
